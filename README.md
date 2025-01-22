@@ -10,10 +10,10 @@ This repository contains code and notebooks for conducting class incremental lea
 These notebooks are used to run the class incremental learning experiments on CIFAR-10 and CIFAR-100 datasets. They generate NTK matrices and accuracy metrics, which are saved as `.pkl` files.
 
 - **`experiment-cifar10-epoch10.ipynb`**:  
-  This notebook runs the class incremental learning experiment on the CIFAR-10 dataset using both MLP and RNN models. The results are saved in the corresponding `.pkl` files.
+  This notebook runs the class incremental learning experiment on the CIFAR-10 dataset using MLP, RNN and CNN models. The results are saved in the corresponding `.pkl` files.
 
 - **`experiment-cifar100-epoch10.ipynb`**:  
-  This notebook runs the class incremental learning experiment on the CIFAR-100 dataset using both MLP and RNN models. The results are saved in the corresponding `.pkl` files.
+  This notebook runs the class incremental learning experiment on the CIFAR-100 dataset using MLP, RNN and CNN models. The results are saved in the corresponding `.pkl` files.
 
 ---
 
@@ -26,11 +26,23 @@ These files contain the metrics (NTK matrices and accuracies) obtained from the 
 - **`rnn_cifar10_2_2_10epo_cuda.pkl`**:  
   Contains the metrics (NTK matrices and accuracies) for the RNN model trained on the CIFAR-10 dataset.
 
+- **`cnn_cifar10_2_2_10epo_cuda.pkl`**:  
+  Contains the metrics (NTK matrices and accuracies) for the CNN model trained on the CIFAR-10 dataset.
+
+- **`cnn_cifar10_replay_2_2_10epo_cuda.pkl`**:  
+  Contains the metrics (NTK matrices and accuracies) for the CNN model with Experience Replay trained on the CIFAR-10 dataset.
+
 - **`mlp_cifar100_10_10_10epo_cuda.pkl`**:  
   Contains the metrics (NTK matrices and accuracies) for the MLP model trained on the CIFAR-100 dataset.
 
 - **`rnn_cifar100_10_10_10epo_cuda.pkl`**:  
   Contains the metrics (NTK matrices and accuracies) for the RNN model trained on the CIFAR-100 dataset.
+  
+- **`cnn_cifar100_10_10_10epo_cuda.pkl`**:  
+  Contains the metrics (NTK matrices and accuracies) for the CNN model trained on the CIFAR-100 dataset.
+
+- **`cnn_cifar100_replay_10_10_10epo_cuda.pkl`**:  
+  Contains the metrics (NTK matrices and accuracies) for the CNN model with Experience Replay trained on the CIFAR-100 dataset.
 
 ---
 
@@ -43,11 +55,17 @@ These notebooks are used to visualize the metrics (NTK matrices and accuracies) 
 - **`plot_rnn_cifar10_10epoch.ipynb`**:  
   This notebook plots the metrics (NTK matrices and accuracies) for the RNN model trained on the CIFAR-10 dataset.
 
+- **`plot_cnn_cifar10_10epoch.ipynb`**:  
+  This notebook plots the metrics (NTK matrices and accuracies) for the CNN model trained on the CIFAR-10 dataset.
+
 - **`plot_mlp_cifar100_10epoch.ipynb`**:  
   This notebook plots the metrics (NTK matrices and accuracies) for the MLP model trained on the CIFAR-100 dataset.
 
 - **`plot_rnn_cifar100_10epoch.ipynb`**:  
   This notebook plots the metrics (NTK matrices and accuracies) for the RNN model trained on the CIFAR-100 dataset.
+
+- **`plot_cnn_cifar100_10epoch.ipynb`**:  
+  This notebook plots the metrics (NTK matrices and accuracies) for the CNN model trained on the CIFAR-100 dataset.
 
 ---
 
