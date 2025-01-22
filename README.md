@@ -9,7 +9,7 @@ This repository contains the code for a project done in the course Deep learning
 
 Our work provides a broad view of the evolution of the empirical NTK matrix throughout the training process, which enhances the understanding of how much the NTK theory aligns with the empirical results on finite width setting and facing drastic changes in input.
 
-This repository contains code and notebooks for conducting class incremental learning experiments on the CIFAR-10 and CIFAR-100 datasets using MLP (Multi-Layer Perceptron) , RNN (Recurrent Neural Network) and Convolutional Neural Network (CNN) models. The experiments focus on obtaining Neural Tangent Kernel (NTK) matrices and tracking accuracies during the learning process. Below is a detailed explanation of the files and their purposes.
+The repository contains code and notebooks for conducting class incremental learning experiments on the CIFAR-10 and CIFAR-100 datasets using MLP (Multi-Layer Perceptron) , RNN (Recurrent Neural Network) and Convolutional Neural Network (CNN) models. The experiments focus on obtaining Neural Tangent Kernel (NTK) matrices and tracking accuracies during the learning process. Below is a detailed explanation of the files and their purposes.
 
 ---
 
