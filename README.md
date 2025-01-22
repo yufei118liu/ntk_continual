@@ -15,6 +15,12 @@ These notebooks are used to run the class incremental learning experiments on CI
 - **`experiment-cifar100-epoch10.ipynb`**:  
   This notebook runs the class incremental learning experiment on the CIFAR-100 dataset using MLP, RNN and CNN models. The results are saved in the corresponding `.pkl` files.
 
+- **`experiment-cifar10-epoch10_replay.ipynb`**:  
+  This notebook runs the class incremental learning experiment with Experience Replay on the CIFAR-10 dataset using MLP and CNN models. The results are saved in the corresponding `.pkl` files.
+
+- **`experiment-cifar100-epoch10_replay.ipynb`**:  
+  This notebook runs the class incremental learning experiment with Experience Replay on the CIFAR-100 dataset using MLP and CNN models. The results are saved in the corresponding `.pkl` files.
+
 ---
 
 ### 2. **Generated `.pkl` Files**
